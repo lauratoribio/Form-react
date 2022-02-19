@@ -1,23 +1,16 @@
 
 import './App.css';
+import React, {useState} from "react";
+import AccountForm from "./components/AcountForm/AcountForm"
 
 function App() {
+
+  //Creamos un nuevo estado de componente
+  const [profiles, setProfiles] = useState()
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src="" className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <AccountForm />
     </div>
   );
 }
