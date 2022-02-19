@@ -1,15 +1,13 @@
 
 import './App.css';
-import React, {useState} from "react";
-import AccountForm from "./components/AcountForm/AcountForm"
+import NavBar from "./components/NavBar/NavBar";
+import AccountForm from "./components/AcountForm/AcountForm";
 
 function App() {
 
-  //Creamos un nuevo estado de componente
-  const [profiles, setProfiles] = useState()
-
   return (
     <div className="App">
+      <NavBar />
       <AccountForm />
     </div>
   );

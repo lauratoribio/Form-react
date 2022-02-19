@@ -2,7 +2,7 @@ body {
   margin: 0;
   background-image: url(./assets/images/form-background.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   /* background: radial-gradient(circle, rgba(254,250,224,1) 0%, rgba(221,161,94,1) 100%); */
   font-family: 'Montserrat', sans-serif;
 }
