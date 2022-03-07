@@ -33,26 +33,26 @@ export default function AcountForm() {
   }
 
   return (
-    <div class="container">
+    <div className="container">
         <h2>Create account</h2>
-        <form onSubmit={submitForm} class="form">
+        <form onSubmit={submitForm} className="form">
            <label>
-            <input class="form__item" type="text" name="userName" value={userName} onChange={handleChange} placeholder="User name"/>
+            <input className="form__item" type="text" name="userName" value={userName} onChange={handleChange} placeholder="User name"/>
            </label>
 
            <label>
-            <input class="form__item" type="password" name="userPassword" value={userPassword} onChange={handleChange} placeholder="Password"/>
+            <input className="form__item" type="password" name="userPassword" value={userPassword} onChange={handleChange} placeholder="Password"/>
            </label>
 
            <label>
-            <input class="form__item" type="text" name="userEmail" value={userEmail} onChange={handleChange} placeholder="Email"/>
+            <input className="form__item" type="text" name="userEmail" value={userEmail} onChange={handleChange} placeholder="Email"/>
            </label>
 
            <label>
-            <input class="form__item" type="text" name="userPhone" value={userPhone} onChange={handleChange} placeholder="Phone"/>
+            <input className="form__item" type="text" name="userPhone" value={userPhone} onChange={handleChange} placeholder="Phone"/>
            </label>
 
-           <button class="form__btn form__btn--hover" type="submit">Create</button>
+           <button className="form__btn form__btn--hover" type="submit">Create</button>
         </form>    
     </div>
   )
